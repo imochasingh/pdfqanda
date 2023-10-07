@@ -1,0 +1,4 @@
+langchain==0.0.309
+pygwalker==0.3.7
+openai==0.28.1
+pygwalker==0.3.7
