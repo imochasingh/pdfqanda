@@ -47,7 +47,7 @@ if reset_button:
   query_text = None
   openai_api_key = None
 
-if query_text is 'Other':
+if query_text == 'Other':
   query_text = st.text_input('Enter your query:', placeholder = 'Enter query here ...', disabled=not uploaded_file)
 if not openai_api_key.startswith('sk-'):
   st.warning('Please enter your OpenAI API key!', icon='⚠')
